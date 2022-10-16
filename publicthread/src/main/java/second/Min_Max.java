@@ -15,7 +15,7 @@ public class Min_Max {
 
 	}
 
-	Integer minInt(List<Integer> num) {
+	public Integer minInt(List<Integer> num) {
 
 		Integer min = num.stream().min(Comparator.comparing(i -> i)).get();
 		System.out.println("Maximum number in the set is " + min);
